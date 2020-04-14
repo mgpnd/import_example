@@ -1,4 +1,4 @@
-class ExampleController < ApplicationController
+class KeyBasedImportExampleController < ApplicationController
   include ImportExample::Import[
     show_example: "example.show"
   ]
