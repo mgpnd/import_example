@@ -6,10 +6,11 @@ bundle install
 
 ## Run example
 
-There're 4 specs that use different way of calling operation, located in `spec/controllers/key_based_import_example_controller_spec.rb` and
-there're 4 specs that use different way of calling operation, located in `spec/controllers/base_import_example_controller_spec.rb`
+There're 2 files with specs that use different ways of calling operation:
+`spec/controllers/key_based_import_example_controller_spec.rb` and
+`spec/controllers/base_import_example_controller_spec.rb`.
 
-Three of these specs of each controller pass while one is faling, because operation didn't get stubbed.
+Each file has three specs passing and one spec failng, because stub is not applied.
 
 Run all specs with
 ```
