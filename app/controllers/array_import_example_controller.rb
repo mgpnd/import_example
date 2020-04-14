@@ -1,10 +1,10 @@
-class ExampleController < ApplicationController
+class ArrayImportExampleController < ApplicationController
   include ImportExample::Import[
-    show_example: "example.show"
+    "example.show"
   ]
 
   def index
-    @auto_imported = show_example.()
+    @auto_imported = show.()
     @manually_resolved = ImportExample::Container["example.show"].()
   end
 end
