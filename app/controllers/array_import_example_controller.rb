@@ -1,4 +1,4 @@
-class BaseImportExampleController < ApplicationController
+class ArrayImportExampleController < ApplicationController
   include ImportExample::Import[
     "example.show"
   ]

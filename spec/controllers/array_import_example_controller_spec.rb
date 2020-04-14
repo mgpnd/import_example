@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe BaseImportExampleController, type: :controller do
+RSpec.describe ArrayImportExampleController, type: :controller do
   describe '#index' do
     subject { get :index, params: { format: 'text/hmtl' } }
 
